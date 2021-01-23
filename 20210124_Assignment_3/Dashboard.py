@@ -7,12 +7,14 @@ docstring = """ Dashboard
 
 
 def print_header():
+    """ Print program and author's name """
     print("Temperature Project")
     print("Ye-Hwan Kim")
 
 
 # from assignment 2
 def convert_units(celsius_value, units):
+    """ Convert given temperature to the specified unit """
     if units == 0:
         return celsius_value
     elif units == 1:

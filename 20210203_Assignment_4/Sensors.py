@@ -1,8 +1,7 @@
 docstring = """ Sensors
     Submitted by Ye-Hwan Kim
     Submitted: Jan 28, 2021
-    This program prompts the user for a menu selection, validates the input, 
-    and calls appropriate stub functions.
+    This program provides a menu that the user can select from.
     This program creates lists for the sensors and tests their correctness.
 """
 

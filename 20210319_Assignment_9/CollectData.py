@@ -86,7 +86,7 @@ def new_file(dataset):
     file_path = input(
         "Please enter the path and file name of the new dataset: ")
     if dataset.process_file(file_path):
-        print(f"Loaded", dataset.get_loaded_temps(), "samples.")
+        print(f"Loaded {dataset.get_loaded_temps()} samples.")
         while True:
             name = input("Please enter a 3 to 20 character name for the data: ")
             try:

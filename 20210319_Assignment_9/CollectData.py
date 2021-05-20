@@ -9,7 +9,7 @@ docstring = """ CollectData
 """
 
 
-# from assignment 7
+# from assignment 8
 def print_filter(sensor_list, active_sensors):
     """ Print the list of sensors and note active ones """
     print("Printing filtered sensor list.")
